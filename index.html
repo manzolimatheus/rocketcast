@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocketcast</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="public/img/rocket-logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <img src="public/img/rocket-logo.png" alt="Logo">
+        <h1>Rocketcast</h1>
+    </header>
+    <!-- Nav PC -->
+    <nav>
+      <a href="#"><ion-icon name="planet-outline"></ion-icon> Início</a>
+      <a href="#podcasts"><ion-icon name="mic-outline"></ion-icon> Podcasts</a>
+      <a href="#sobre"
+        ><ion-icon name="hardware-chip-outline"></ion-icon> Sobre o projeto</a
+      >
+    </nav>
+    <!-- Nav Mobile -->
+    <nav class="nav-mobile">
+        <ion-icon name="menu-outline" class="menu-button" id="menu" onclick="menu_mobile()"></ion-icon>
+        <ul class="ul-mobile" id="ul_mobile">
+            <li>
+                <a href="#"><ion-icon name="planet-outline"></ion-icon> Início</a>
+            </li>
+            <li>
+                <a href="#podcasts"><ion-icon name="mic-outline"></ion-icon> Podcasts</a>
+            </li>
+            <li>
+                <a href="#sobre"
+                ><ion-icon name="hardware-chip-outline"></ion-icon> Sobre o projeto</a
+              >
+            </li>
+        </ul>
+    </nav>
+    <div class="destaque">
+      <h1 class="titulo">Podcast de gente como a gente.</h1>
+    </div>
+    <div class="agenda">
+      <h3>
+        <ion-icon name="calendar-outline"></ion-icon> <em>19/09/2021</em> -
+        Produção
+      </h3>
+      <h3>
+        <ion-icon name="calendar-outline"></ion-icon> <em>24/09/2021</em> -
+        Entrega
+      </h3>
+    </div>
+    <div class="podcasts" id="podcasts">
+      <div class="podcasts-big-player">
+        <div class="podcasts-player">
+          <div>
+            <h1><ion-icon name="time-outline"></ion-icon> Em breve</h1>
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_meb2csuq.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+      </div>
+      <div class="podcasts-preview">
+        <div class="bloco-preview">
+          <div class="preview">
+            <h3><ion-icon name="time-outline"></ion-icon></h3>
+            <h3>Em breve</h3>
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_meb2csuq.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+        <div class="bloco-preview">
+          <div class="preview">
+            <h3><ion-icon name="time-outline"></ion-icon></h3>
+            <h3>Em breve</h3>
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_meb2csuq.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+        <div class="bloco-preview">
+          <div class="preview">
+            <h3><ion-icon name="time-outline"></ion-icon></h3>
+            <h3>Em breve</h3>
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_meb2csuq.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sobre" id="sobre">
+      <div class="apresentadores">
+        <img src="public/img/grupo.png" alt="Apresentadores" />
+      </div>
+      <div class="sobre-conteudo">
+        <div></div>
+        <div>
+          <h1 class="titulo">
+            <ion-icon name="flash-outline" style="color: yellow"></ion-icon>
+            Sobre nós
+          </h1>
+          <p>
+            Somos uma equipe de desenvolvedores que busca conversas
+            descontraídas para refrescar a mente do dia a dia. Nosso principal
+            objetivo é se divertir e fazer com que você se sinta em casa e
+            acolhido, queremos que você viaje em um universo onde os problemas
+            desaparecem.
+          </p>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="nossa-cultura">
+        <h1 class="titulo"><ion-icon name="leaf-outline"></ion-icon> Nossa cultura</h1>
+      <div class="cultura">
+        <div class="card">
+          <lottie-player
+            src="https://assets7.lottiefiles.com/datafiles/u1A8jpnhAl7qr1S/data.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+          <h3>Descontração</h3>
+          <p>Um ambiente divertido que te faz esquecer os problemas.</p>
+        </div>
+        <div class="card">
+          <lottie-player
+            src="https://assets10.lottiefiles.com/packages/lf20_v4h8ijfx.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+          <h3>Aconchego</h3>
+          <p>Aqui você se sente em casa, somos todos amigos!</p>
+        </div>
+        <div class="card">
+          <lottie-player
+            src="https://assets4.lottiefiles.com/packages/lf20_88eq9kd8.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+          <h3>Vamos viajar?</h3>
+          <p>
+            Vamos viajar em um universo totalmente diferente em cada episódio!
+            Todos a bordo!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="divirta">
+      <lottie-player
+        src="https://assets1.lottiefiles.com/packages/lf20_mtbi3z71.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></lottie-player>
+      <h1 class="titulo">Esperamos que você se divirta!</h1>
+    </div>
+    <footer>
+        <p>Site desenvolvido por Matheus Manzoli - 2021</p>
+        <br>
+        <a href="https://github.com/manzolimatheus"><ion-icon name="logo-github"></ion-icon></a> 
+        <a href="https://behance.net/manzolimatheus"><ion-icon name="logo-behance"></ion-icon></a> 
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #9900ff;
+  padding: 1%;
+  
+}
+
+header img{
+  width: 100px;
+}
+
+header h1{
+  color: white;
+  
+}
+
+nav {
+  background-color: #141414;
+  text-align: center;
+  padding: 1%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-inline: 5%;
+  font-size: 18pt;
+}
+
+nav a:hover {
+  color: #00ffea;
+}
+
+.nav-mobile{
+  text-align: left;
+  display: none;
+  color:white;
+}
+
+.menu-button{
+  text-align: right !important;
+  font-size: 24pt;
+}
+
+.ul-mobile{
+  display: none;
+}
+
+.destaque {
+  text-align: center;
+  padding: 20%;
+  background-image: url("https://i.pinimg.com/originals/af/67/48/af6748219962722d8d9c513418f4c3e4.gif");
+  box-shadow: inset 0 0 0 2000px rgba(56, 0, 109, 0.5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.agenda {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  background-color: #00ffea;
+  padding: 1%;
+}
+
+.podcasts {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.podcasts-big-player {
+  background-color: #161616;
+  height: 100%;
+}
+
+.podcasts-player {
+  display: grid;
+  justify-content: center;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+.podcasts-player lottie-player {
+  height: 300px;
+  margin-top: 15%;
+}
+
+.podcasts-preview {
+  background-color: #333333;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.bloco-preview {
+  display: grid;
+  justify-content: center;
+  padding: 4%;
+}
+
+.preview {
+  background-color: #0e0e0e;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.preview h3 {
+  position: relative;
+  z-index: 1;
+  top: 50%;
+}
+
+.preview lottie-player {
+  width: auto;
+  height: 145px;
+  opacity: 0.5;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #9900ff;
+}
+
+.apresentadores img {
+  width: 80%;
+  padding: 10%;
+}
+
+.sobre-conteudo {
+  padding-right: 5%;
+  padding-top: 10%;
+}
+
+.sobre-conteudo p {
+  color: #f1f1f1;
+  font-size: 16pt;
+  padding-top: 5%;
+}
+
+.nossa-cultura {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/7099fc28008799.56e41b31e770e.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5%;
+}
+
+.titulo {
+  font-size: 48pt;
+  color: white;
+}
+
+.cultura {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5%;
+}
+
+.card {
+  justify-self: center;
+  width: 50%;
+  background: linear-gradient(rgb(183, 0, 255) 0%, rgb(0, 224, 168) 100%);
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card h3 {
+  color: white;
+  text-align: center;
+}
+
+.card p {
+  padding: 5%;
+  color: #f0f0f0;
+}
+
+.card lottie-player {
+  margin-top: 5%;
+  padding-inline: 3%;
+  width: 100%;
+  height: 120px;
+}
+
+.divirta {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  text-align: center;
+  background-color: #00d4c3;
+}
+
+.divirta h1 {
+  margin-top: 16%;
+}
+
+footer {
+  text-align: center;
+  padding: 3%;
+  color: white;
+  background-color: #131313;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+footer a:hover {
+  color: #00ffea;
+}
+
+@media (max-width: 768px){
+
+  .divirta h1 {
+    font-size: 20pt;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .nav-mobile{
+    display: block;
+  }
+
+  .podcasts {
+    grid-template-columns: 100%;
+  }
+
+  .podcasts-preview {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    padding: 5%;
+  }
+
+  .sobre {
+    grid-template-columns: 100%;
+    padding: 10%;
+  }
+
+  .apresentadores img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cultura {
+    grid-template-columns: 100%;
+  }
+
+  .card{
+    margin-bottom: 5%;
+  }
+
+  .divirta {
+    grid-template-columns: 100%;
+    padding: 10%;
+  }
+
+  .titulo{
+    font-size: 32pt;
+  }
+
+}
