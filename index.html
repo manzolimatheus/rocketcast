@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rocketcast</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="public/img/rocket-logo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="public/img/rocket-logo.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header>
-        <img src="public/img/rocket-logo.png" alt="Logo">
-        <h1>Rocketcast</h1>
+      <img src="public/img/rocket-logo.png" alt="Logo" />
+      <h1>Rocketcast</h1>
     </header>
     <!-- Nav PC -->
     <nav>
@@ -23,20 +27,28 @@
     </nav>
     <!-- Nav Mobile -->
     <nav class="nav-mobile">
-        <ion-icon name="menu-outline" class="menu-button" id="menu" onclick="menu_mobile()"></ion-icon>
-        <ul class="ul-mobile" id="ul_mobile">
-            <li>
-                <a href="#"><ion-icon name="planet-outline"></ion-icon> Início</a>
-            </li>
-            <li>
-                <a href="#podcasts"><ion-icon name="mic-outline"></ion-icon> Podcasts</a>
-            </li>
-            <li>
-                <a href="#sobre"
-                ><ion-icon name="hardware-chip-outline"></ion-icon> Sobre o projeto</a
-              >
-            </li>
-        </ul>
+      <ion-icon
+        name="menu-outline"
+        class="menu-button"
+        id="menu"
+        onclick="menu_mobile()"
+      ></ion-icon>
+      <ul class="ul-mobile" id="ul_mobile">
+        <li>
+          <a href="#"><ion-icon name="planet-outline"></ion-icon> Início</a>
+        </li>
+        <li>
+          <a href="#podcasts"
+            ><ion-icon name="mic-outline"></ion-icon> Podcasts</a
+          >
+        </li>
+        <li>
+          <a href="#sobre"
+            ><ion-icon name="hardware-chip-outline"></ion-icon> Sobre o
+            projeto</a
+          >
+        </li>
+      </ul>
     </nav>
     <div class="destaque">
       <h1 class="titulo">Podcast de gente como a gente.</h1>
@@ -108,6 +120,35 @@
         </div>
       </div>
     </div>
+    <div class="roteiro">
+      <h1 class="titulo">
+        <ion-icon name="document-text-outline"></ion-icon> Roteiro
+      </h1>
+      <div class="texto">
+        <textarea readonly>
+          Apresentação dos integrantes
+          
+          Matheus: Bom dia, boa tarde, boa noite, meu nome é Matheus e eu estou aqui com o Denian, Raíne e Nathalia, digam olá povo. 
+          Raíne: Olá!!
+          Nathalia: Oii!
+          Denian: Salve!
+          
+              2. Apresentação do tema do podcast
+          O tema do podcast é: Como os jogos podem te ensinar inglês?
+          Em todo caso, os jogos não ensinam somente a língua inglesa, você pode jogar em diferentes línguas para aprender de pouco em pouco, é uma boa prática, entretanto, o foco é falar sobre alguns dos termos mais usados nos jogos atualmente.
+          
+              3. Perguntas
+              a) Quais são os termos mais famosos nos jogos e seus significados?
+              b) Quando são utilizados?
+              c) Esses termos servem em todos os jogos?
+              d) Todos sabem o significado deles?
+              e) Como aprendeu esses termos?
+          
+              4. Finalização e agradecimentos.
+          Chegamos ao fim do nosso podcast ☹! Agradecemos pela sua presença e esperamos que tenha gostado e aprendido para não ficar moscando na sua próxima gameplay, até a próxima!
+        </textarea>
+      </div>
+    </div>
     <div class="sobre" id="sobre">
       <div class="apresentadores">
         <img src="public/img/grupo.png" alt="Apresentadores" />
@@ -131,7 +172,9 @@
       </div>
     </div>
     <div class="nossa-cultura">
-        <h1 class="titulo"><ion-icon name="leaf-outline"></ion-icon> Nossa cultura</h1>
+      <h1 class="titulo">
+        <ion-icon name="leaf-outline"></ion-icon> Nossa cultura
+      </h1>
       <div class="cultura">
         <div class="card">
           <lottie-player
@@ -182,10 +225,14 @@
       <h1 class="titulo">Esperamos que você se divirta!</h1>
     </div>
     <footer>
-        <p>Site desenvolvido por Matheus Manzoli - 2021</p>
-        <br>
-        <a href="https://github.com/manzolimatheus"><ion-icon name="logo-github"></ion-icon></a> 
-        <a href="https://behance.net/manzolimatheus"><ion-icon name="logo-behance"></ion-icon></a> 
+      <p>Site desenvolvido por Matheus Manzoli - 2021</p>
+      <br />
+      <a href="https://github.com/manzolimatheus"
+        ><ion-icon name="logo-github"></ion-icon
+      ></a>
+      <a href="https://behance.net/manzolimatheus"
+        ><ion-icon name="logo-behance"></ion-icon
+      ></a>
     </footer>
     <script
       type="module"
@@ -197,5 +244,5 @@
     ></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
