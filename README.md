@@ -15,7 +15,7 @@ Para criar o Rocketcast utilizei HTML,CSS e JS puros, além do plugin lottie-pla
 
 <img src="https://static.lottiefiles.com/static_uploads/lf_Logo_2x.jpg" width="200px">
 
-## Sobre
+## Screenshots
 <img src="https://i.imgur.com/4StsCw2.png">
 <img src="https://i.imgur.com/UJEuRvN.png">
 <img src="https://i.imgur.com/Bf1NVQW.png">
